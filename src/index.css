@@ -270,7 +270,8 @@ textarea:focus {
 
 .item-row strong {
   color: var(--ink-900);
-  white-space: nowrap;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .item-row + .item-row {
@@ -320,6 +321,11 @@ textarea:focus {
   color: #f2f8ff;
 }
 
+.btn:focus-visible {
+  outline: 3px solid rgba(28, 166, 109, 0.35);
+  outline-offset: 2px;
+}
+
 .app-footer {
   margin-top: 1rem;
   padding: 1rem;
@@ -363,6 +369,41 @@ textarea:focus {
 }
 
 @media (max-width: 767px) {
+  .app-header,
+  .content-wrap {
+    width: min(100% - 1rem, 980px);
+  }
+
+  .app-header {
+    margin-top: 0.5rem;
+    padding: 0.85rem;
+    border-radius: 0.8rem;
+  }
+
+  .content-wrap {
+    margin-top: 0.75rem;
+  }
+
+  .hero-copy {
+    padding: 1.1rem;
+    border-radius: 0.8rem;
+  }
+
+  .form-card,
+  .summary-card {
+    padding: 0.85rem;
+    border-radius: 0.8rem;
+  }
+
+  input,
+  textarea {
+    font-size: 1rem;
+  }
+
+  .btn {
+    min-height: 2.9rem;
+  }
+
   .header-cert {
     font-size: 0.7rem;
   }
@@ -393,5 +434,10 @@ textarea:focus {
   .item-row {
     flex-direction: column;
     gap: 0.3rem;
+    overflow-wrap: anywhere;
+  }
+
+  .summary-row {
+    gap: 0.75rem;
   }
 }
