@@ -1,0 +1,7 @@
+<svg width="320" height="86" viewBox="0 0 320 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="86" rx="10" fill="#05070D"/>
+  <rect x="10" y="10" width="66" height="66" rx="10" stroke="#FFFFFF" stroke-width="6"/>
+  <path d="M27 54L44 28L59 54H27Z" fill="#FFFFFF"/>
+  <rect x="49" y="47" width="16" height="7" rx="2" fill="#05070D"/>
+  <text x="86" y="62" font-family="Arial, sans-serif" font-size="62" font-weight="700" fill="#FFFFFF">LEES</text>
+</svg>

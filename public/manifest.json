@@ -1,0 +1,26 @@
+{
+  "short_name": "RQ Cotizador",
+  "name": "Cotizador RQ Ingenieria",
+  "icons": [
+    {
+      "src": "rq-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "rq-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "rq-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1F2A66",
+  "background_color": "#ffffff"
+}
